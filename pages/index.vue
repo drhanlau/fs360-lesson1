@@ -98,9 +98,9 @@
 
     <!-- footer row -->
     <div class="bg-gray-700 py-10 text-white">
-      <div class="flex mx-auto max-w-6xl">
+      <div class="flex max-w-5xl mx-auto">
         <!-- column 1 -->
-        <div class="w-1/3 pr-10">
+        <div class="w-1/3 pl-10">
           <h3 class="text-2xl mb-2">🍔 BurgerQueen</h3>
           <p>We are out to make the world a better place. One burger at a time.</p>
         </div>
@@ -121,7 +121,7 @@
         </div>
 
         <!-- column 3 -->
-        <div class="w-1/3 pt-3">
+        <div class="w-1/3 pt-3 pl-10">
           <ul>
             <li>
               <a href="#">Privacy policy</a>

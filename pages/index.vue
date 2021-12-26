@@ -2,55 +2,63 @@
   <div>
     <!-- menu bar -->
     <div class="flex bg-gray-900 text-white py-5">
-      <div class="w-1/2 pl-10">🍔 BurgerQueen</div>
+      <div class="w-1/2 pl-10">
+        <NuxtLink to="/">🍔 Houz Burger</NuxtLink>
+      </div>
       <div class="w-1/2">
         <ul class="flex justify-end mr-20">
-          <li class="mr-10">Our menu</li>
+          <NuxtLink to="/menu"><li class="mr-10">Our menu</li></NuxtLink>
           <li class="mr-10">Store locations</li>
           <li class="mr-10">About us</li>
         </ul>
       </div>
     </div>
     <!-- header row -->
-    <div class="mx-auto px-3 pt-20 pb-32">
-      <header class="text-center">
-        <h1 class="text-5xl text-gray-900 font-bold whitespace-pre-line leading-hero">
+    <div class="mx-auto px-3 pt-20 pb-32 bg-[url('/burger-hero.jpg')] bg-center">
+      <header class="text-center text-white">
+        <h1 class="text-5xl font-bold whitespace-pre-line leading-hero drop-shadow-xl">
           DINE IN NOW AVAILABLE
         </h1>
-        <p class="text-primary-500 mt-5">Head on over to a joint near you!</p>
+        <p class="text-primary-500 mt-5">Head over to a nearest joint now!</p>
       </header>
     </div>
 
     <!-- first row -->
     <div class="bg-gray-900 px-10 py-10 text-yellow-400">
-      <p class="text-3xl mb-5">MYBURGERLAB = YOUR BURGER LAB</p>
+      <p class="text-3xl mb-5">Houz Burger - Always ready to serve</p>
       <div class="flex">
         <div class="w-1/4 bg-gray-700 px-5 py-5">
-          <div class="text-yellow-400 text-xl font-semibold">BAMBOO CHARCOAL BUNS</div>
+          <div class="text-yellow-400 text-xl font-semibold uppercase mb-2">
+            Charcoal Buns
+          </div>
           <p class="text-white">
-            Fluffy, tasty and oh'so addictive. Our buns are prepared from scratch and
-            baked fresh daily.
+            Fluffy, tasty and addictive. We prepare our buns from scratch and bake it
+            fresh daily. Black is the new classic.
           </p>
         </div>
         <div class="w-1/4 bg-gray-700 ml-5 px-5 py-5">
-          <div class="text-yellow-400 text-xl font-semibold">PATTIES TO DIE FOR</div>
+          <div class="text-yellow-400 text-xl font-semibold uppercase mb-2">
+            Patties Party
+          </div>
           <p class="text-white">
-            From Juicy Beef patties, to Fried Chicken Thighs, to Portobello Mushrooms, or
-            even Tofu patties, you're spoilt for choice.
+            From tender Fried Chicken Thigh, Portobello Mushrooms, Sausage, Bacon, and
+            Juicy Beef Patties. You name it, we get it!
           </p>
         </div>
         <div class="w-1/4 bg-gray-700 ml-5 px-5 py-5">
-          <div class="text-yellow-400 text-xl font-semibold">CRAZY COMBINATIONS</div>
+          <div class="text-yellow-400 text-xl font-semibold uppercase mb-2">
+            Wildest Combinations
+          </div>
           <p class="text-white">
-            From Juicy Beef patties, to Fried Chicken Thighs, to Portobello Mushrooms, or
-            even Tofu patties, you're spoilt for choice.
+            Salted egg york & bacon Cheeseburger, or a burger with only patties and no
+            bun. Do you know we even use the Rose Syrup?
           </p>
         </div>
         <div class="w-1/4 bg-gray-700 ml-5 px-5 py-5">
-          <div class="text-yellow-400 text-xl font-semibold">HACK-YOUR-OWN</div>
+          <div class="text-yellow-400 text-xl font-semibold mb-2">B.Y.O.</div>
           <p class="text-white">
-            From Juicy Beef patties, to Fried Chicken Thighs, to Portobello Mushrooms, or
-            even Tofu patties, you're spoilt for choice.
+            Think you can do better than our burger artist? Bring it on! Customize your
+            own dream burger, and we will make it happen.
           </p>
         </div>
       </div>
@@ -112,7 +120,7 @@
       <div class="flex max-w-5xl mx-auto">
         <!-- column 1 -->
         <div class="w-1/3 pl-10">
-          <h3 class="text-2xl mb-2">🍔 BurgerQueen</h3>
+          <h3 class="text-2xl mb-2">🍔 Houz Burger</h3>
           <p>We are out to make the world a better place. One burger at a time.</p>
         </div>
 

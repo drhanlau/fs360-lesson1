@@ -1,18 +1,30 @@
 <template>
   <div>
+    <div class="flex bg-gray-900 text-white py-5">
+      <div class="w-1/2 pl-10">
+        <NuxtLink to="/">🍔 Houz Burger</NuxtLink>
+      </div>
+      <div class="w-1/2">
+        <ul class="flex justify-end mr-20">
+          <NuxtLink to="/menu"><li class="mr-10">Our menu</li></NuxtLink>
+          <li class="mr-10">Store locations</li>
+          <li class="mr-10">About us</li>
+        </ul>
+      </div>
+    </div>
     <div class="pl-5 pr-10">
       <!-- appetizer section -->
       <h1 class="py-5 text-3xl">Appetizer</h1>
 
       <div class="flex mt-5">
-        <div class="basis-1/4">
+        <div class="w-1/4">
           <img
             class="rounded-xl"
             src="https://myburgerlab.com/static/img/menu/products/img_appe_mushroom-fries.jpg"
             alt=""
           />
         </div>
-        <div class="basis-3/4 px-5">
+        <div class="w-3/4 px-5">
           <h3 class="uppercase text-blue-900 font-bold">Mushroom Fries</h3>
           <div class="py-2 pr-5">
             Portabella Mushroom Slices bread crumbed and deep fried. Served w/ our
@@ -23,7 +35,7 @@
       </div>
 
       <div class="flex mt-5">
-        <div class="basis-1/4">
+        <div class="w-1/4">
           <img
             class="rounded-xl"
             src="https://myburgerlab.com/static/img/menu/products/img_appe_nacho-libre.jpg"
@@ -31,7 +43,7 @@
           />
         </div>
 
-        <div class="basis-3/4 px-5">
+        <div class="w-3/4 px-5">
           <h3 class="uppercase text-blue-900 font-bold">Nacho Libre</h3>
           <div class="py-2 pr-5">
             Crunchy Corn chips topped with Jalapenos, Cheese Sauce, tangy Salsa. A great
@@ -42,7 +54,7 @@
       </div>
 
       <div class="flex mt-5">
-        <div class="basis-1/4">
+        <div class="w-1/4">
           <img
             class="rounded-xl"
             src="https://myburgerlab.com/static/img/menu/products/img_appe_nacho-libre.jpg"
@@ -50,7 +62,7 @@
           />
         </div>
 
-        <div class="basis-3/4 px-5">
+        <div class="w-3/4 px-5">
           <h3 class="uppercase text-blue-900 font-bold">Popcorn Chicken</h3>
           <div class="py-2 pr-5">
             Bite-sized Fried Chicken served with Cheese Sauce with a twist of lime. Goes
@@ -68,14 +80,14 @@
       <h1 class="py-5 text-3xl">Beef</h1>
 
       <div class="flex mt-5">
-        <div class="basis-1/4">
+        <div class="w-1/4">
           <img
             class="rounded-xl"
             src="https://myburgerlab.com/static/img/menu/products/img_beef_bm.jpg"
             alt=""
           />
         </div>
-        <div class="basis-3/4 px-5">
+        <div class="w-3/4 px-5">
           <h3 class="uppercase font-bold text-blue-900">Messy Beauty</h3>
           <div class="py-2">
             It's as messy as the name says! A Beef patty topped with Lettuce, Honey
@@ -86,14 +98,14 @@
       </div>
 
       <div class="flex mt-5">
-        <div class="basis-1/4">
+        <div class="w-1/4">
           <img
             class="rounded-xl"
             src="https://myburgerlab.com/static/img/menu/products/img_beef_hangover.jpg"
             alt=""
           />
         </div>
-        <div class="basis-3/4 px-5">
+        <div class="w-3/4 px-5">
           <h3 class="uppercase font-bold text-blue-900">Rosy Business</h3>
           <div class="py-2">
             Rosy business is a combination of Sweet and Savory. Beef patty topped with a
@@ -104,14 +116,14 @@
       </div>
 
       <div class="flex mt-5">
-        <div class="basis-1/4">
+        <div class="w-1/4">
           <img
             class="rounded-xl"
             src="https://myburgerlab.com/static/img/menu/products/img_chicken_lab-burger.jpg"
             alt=""
           />
         </div>
-        <div class="basis-3/4 px-5">
+        <div class="w-3/4 px-5">
           <h3 class="uppercase font-bold text-blue-900">Old Fashion</h3>
           <div class="py-2">
             Who will say no to a classic Cheeseburger that always hits the spot and makes
@@ -127,7 +139,7 @@
       <div class="flex max-w-5xl mx-auto">
         <!-- column 1 -->
         <div class="w-1/3 pl-10">
-          <h3 class="text-2xl mb-2">🍔 BurgerQueen</h3>
+          <h3 class="text-2xl mb-2">🍔 Houz Burger</h3>
           <p>We are out to make the world a better place. One burger at a time.</p>
         </div>
 
